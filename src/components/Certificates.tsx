@@ -5,7 +5,7 @@ import { Award, Calendar, ExternalLink } from "lucide-react";
 export default function Certificates() {
   return (
     <section id="certificates" className="py-24 relative">
-      <div className="container mx-auto px-12 md:px-24 lg:px-48">
+      <div className="container mx-auto px-6 md:px-12 lg:px-48">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="mb-12">
           <h2 className="text-3xl font-bold mb-4 dark:text-white text-slate-900">Sertifikasi</h2>
           <div className="h-1 w-20 bg-cyan-500 rounded-full" />

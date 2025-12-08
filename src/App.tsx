@@ -53,7 +53,7 @@ export default function App() {
 
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-40 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors duration-300">
-          <div className="container mx-auto px-12 md:px-24 lg:px-48 h-16 flex items-center justify-between">
+          <div className="container mx-auto px-6 md:px-12 lg:px-48 h-16 flex items-center justify-between">
             <a
               href="#"
               onClick={(e) => {

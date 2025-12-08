@@ -14,7 +14,7 @@ export default function Projects({ onProjectClick }:ProjectsProps) {
 
   return (
     <section id="projects" className="py-24 bg-slate-50 dark:bg-slate-900/50">
-      <div className="container mx-auto px-12 md:px-24 lg:px-48">
+      <div className="container mx-auto px-6 md:px-12 lg:px-48">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

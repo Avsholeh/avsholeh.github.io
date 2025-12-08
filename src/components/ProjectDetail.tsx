@@ -20,7 +20,7 @@ export default function ProjectDetail({ project, onBack }: ProjectDetailProps) {
       exit={{ opacity: 0, x: -20 }}
       className="min-h-screen pt-24 pb-20"
     >
-      <div className="container mx-auto px-12 md:px-24 lg:px-48 max-w-6xl">
+      <div className="container mx-auto px-6 md:px-12 lg:px-48 max-w-6xl">
         <button
           onClick={onBack}
           className="group flex items-center gap-2 text-slate-500 hover:text-indigo-500 transition-colors mb-8"
@@ -38,7 +38,7 @@ export default function ProjectDetail({ project, onBack }: ProjectDetailProps) {
               <div className="p-3 w-fit rounded-xl bg-indigo-500/20 backdrop-blur-md border border-indigo-500/30 text-white mb-3">
                 <FolderGit2 size={24} />
               </div>
-              <h1 className="text-3xl md:text-5xl font-bold text-white drop-shadow-md">{project.title}</h1>
+              <h1 className="text-2xl md:text-5xl font-bold text-white drop-shadow-md">{project.title}</h1>
             </div>
           </div>
 

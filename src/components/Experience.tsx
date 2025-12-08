@@ -8,7 +8,7 @@ export default function Experience() {
       {/* Decorative background line */}
       <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-slate-200 dark:bg-slate-800 transform md:-translate-x-1/2 z-0" />
 
-      <div className="container mx-auto px-12 md:px-24 lg:px-48 relative z-10">
+      <div className="container mx-auto px-6 md:px-12 lg:px-48 relative z-10">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

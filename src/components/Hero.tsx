@@ -32,7 +32,7 @@ export default function Hero() {
         className="absolute bottom-1/4 -right-20 w-96 h-96 bg-cyan-500/20 rounded-full blur-[100px] pointer-events-none"
       />
 
-      <div className="container mx-auto px-12 md:px-24 lg:px-48 z-10">
+      <div className="container mx-auto px-6 md:px-12 lg:px-48 z-10">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 lg:gap-20">
           {/* Left Side: Text Content */}
           <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">

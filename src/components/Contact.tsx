@@ -21,7 +21,7 @@ export default function Contact() {
       {/* Glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-96 bg-linear-to-t from-indigo-500/10 via-cyan-500/5 to-transparent pointer-events-none" />
 
-      <div className="container mx-auto px-12 md:px-24 lg:px-48">
+      <div className="container mx-auto px-6 md:px-12 lg:px-48">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
