@@ -28,8 +28,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          VITE_BASE: /avsholeh.github.io/   # or remove if base is set in vite.config.js
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
