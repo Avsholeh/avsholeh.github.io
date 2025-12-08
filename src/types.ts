@@ -46,6 +46,7 @@ export interface Certificate {
   id: string;
   name: string;
   issuer: string;
+  description: string;
   date: string;
   link?: string;
 }

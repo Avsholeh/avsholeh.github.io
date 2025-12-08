@@ -11,7 +11,7 @@ export default function Certificates() {
           <div className="h-1 w-20 bg-cyan-500 rounded-full" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {certificates.map((cert, index) => (
             <motion.div
               key={cert.id}
@@ -27,7 +27,13 @@ export default function Certificates() {
 
               <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2 leading-tight">{cert.name}</h3>
 
-              <div className="text-sm text-slate-600 dark:text-slate-400 mb-4 grow">{cert.issuer}</div>
+              <div className="text-sm text-slate-600 dark:text-slate-400 mb-2">{cert.issuer}</div>
+
+              {cert.description && (
+                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 flex-1">
+                  {cert.description}
+                </p>
+              )}
 
               <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800 mt-auto">
                 <span className="text-xs font-medium text-slate-400 flex items-center gap-1">
