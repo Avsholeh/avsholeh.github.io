@@ -55,7 +55,6 @@ export default function Contact() {
 
           <div className="mt-12 pt-12 border-t border-slate-200 dark:border-slate-800/50">
             <div className="text-sm font-medium text-slate-500 dark:text-slate-500">
-              <p>{personalInfo.location}</p>
               <p className="mt-2">
                 © {new Date().getFullYear()} {personalInfo.name}
               </p>
