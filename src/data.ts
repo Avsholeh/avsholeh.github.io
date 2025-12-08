@@ -193,7 +193,7 @@ export const projects: Project[] = [
     ],
     tags: ["Laravel", "JQuery", "Bootstrap", "MySQL"],
     stats: "",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1600&auto=format&fit=crop",
+    image: "/portfolio/sinahan/sinahan-screenshoot00.webp",
   },
   {
     id: "proj-5",
