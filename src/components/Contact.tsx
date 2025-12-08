@@ -32,8 +32,8 @@ export default function Contact() {
             Mari Bekerja Sama
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-400 mb-12 leading-relaxed">
-            Saya terbuka untuk peluang purna waktu dan proyek menarik. Hubungi saya untuk mendiskusikan bagaimana saya
-            dapat membantu membangun solusi skalabel berikutnya.
+            Saya selalu terbuka dengan peluang dan tantangan baru. Hubungi saya untuk mendiskusikan bagaimana saya
+            dapat membantu membangun solusi teknologi berikutnya.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
