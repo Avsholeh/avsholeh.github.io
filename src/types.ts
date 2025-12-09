@@ -48,5 +48,5 @@ export interface Certificate {
   issuer: string;
   description: string;
   date: string;
-  link?: string;
+  links?: string[];
 }

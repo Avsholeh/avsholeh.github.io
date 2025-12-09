@@ -30,25 +30,28 @@ export default function Certificates() {
               <div className="text-sm text-slate-600 dark:text-slate-400 mb-2">{cert.issuer}</div>
 
               {cert.description && (
-                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 flex-1">
-                  {cert.description}
-                </p>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 flex-1">{cert.description}</p>
               )}
 
               <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800 mt-auto">
                 <span className="text-xs font-medium text-slate-400 flex items-center gap-1">
                   <Calendar size={12} /> {cert.date}
                 </span>
-                {cert.link && (
-                  <a
-                    href={cert.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 transition-colors"
-                    aria-label={`Verify ${cert.name}`}
-                  >
-                    <ExternalLink size={16} />
-                  </a>
+                {cert.links && (
+                  <div className="flex space-x-3">
+                    {cert.links.map((link, idx) => (
+                      <a
+                        key={idx}
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-cyan-600 dark:text-cyan-400 hover:text-cyan-700 dark:hover:text-cyan-300 transition-colors"
+                        aria-label={`Verify ${cert.name}`}
+                      >
+                        <ExternalLink size={16} />
+                      </a>
+                    ))}
+                  </div>
                 )}
               </div>
             </motion.div>

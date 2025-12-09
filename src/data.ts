@@ -46,7 +46,7 @@ export const experience: Experience[] = [
     ],
     stack: ["Go", "React", "TypeScript", "PostgreSQL"],
   },
-  
+
   {
     id: "exp-2",
     company: "PT Global Medika Digitama",
@@ -268,33 +268,37 @@ export const certificates: Certificate[] = [
     id: "cert-1",
     name: "SQL Problem Solving",
     issuer: "University of California, Davis (Coursera)",
-    description: "Menguasai pemecahan masalah kompleks menggunakan SQL, termasuk query lanjutan, join, subquery, window functions, dan optimasi performa database.",
+    description:
+      "Menguasai pemecahan masalah kompleks menggunakan SQL, termasuk query lanjutan, join, subquery, window functions, dan optimasi performa database.",
     date: "Des 2025",
-    link: "https://www.coursera.org/account/accomplishments/verify/582ADU20PIV1",
+    links: ["https://www.coursera.org/account/accomplishments/verify/582ADU20PIV1"],
   },
   {
     id: "cert-2",
     name: "Programming with Google Go Specialization",
     issuer: "University of California, Irvine (Coursera)",
-    description: "Menguasai Go dari dasar hingga lanjutan: tipe data, functions, methods, interfaces, polymorphism, serta concurrent programming dengan goroutines dan channels.",
+    description:
+      "Menguasai Go dari dasar hingga lanjutan: tipe data, functions, methods, interfaces, polymorphism, serta concurrent programming dengan goroutines dan channels.",
     date: "Des 2025",
-    link: "https://www.coursera.org/account/accomplishments/verify/M12AFFFYW9YE",
+    links: ["https://www.coursera.org/account/accomplishments/verify/M12AFFFYW9YE", "https://www.coursera.org/account/accomplishments/verify/N6SG9ZV53IL6"],
   },
   {
     id: "cert-3",
     name: "Big Data Training",
     issuer: "University of Brawijaya",
-    description: "Pelatihan intensif pengolahan dan analisis Big Data menggunakan tools modern seperti Hadoop, Spark, dan teknik distributed computing.",
+    description:
+      "Pelatihan intensif pengolahan dan analisis Big Data menggunakan tools modern seperti Hadoop, Spark, dan teknik distributed computing.",
     date: "Jun 2017",
-    link: "https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO",
+    links: ["https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO"],
   },
   {
     id: "cert-4",
     name: "Microsoft Office Training",
     issuer: "University of Brawijaya",
-    description: "Menguasai Microsoft Office (Word, Excel, PowerPoint, Outlook) untuk produktivitas kerja, pembuatan laporan, dan presentasi profesional.",
+    description:
+      "Menguasai Microsoft Office (Word, Excel, PowerPoint, Outlook) untuk produktivitas kerja, pembuatan laporan, dan presentasi profesional.",
     date: "Jun 2016",
-    link: "https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO",
+    links: ["https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO"],
   },
 ];
 
