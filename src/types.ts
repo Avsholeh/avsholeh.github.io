@@ -50,3 +50,10 @@ export interface Certificate {
   date: string;
   links?: string[];
 }
+
+export interface Badge {
+  icon: React.ReactNode;
+  label: string;
+  value: string;
+  color: "blue" | "emerald" | "cyan" | "indigo" | "sky" | "purple";
+}

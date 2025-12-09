@@ -1,6 +1,7 @@
 import { personalInfo } from "@/data";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, Code2 } from "lucide-react";
+import FloatingBadge from "./FloatingBadge";
 
 export default function Hero() {
   return (
@@ -110,6 +111,7 @@ export default function Hero() {
               }}
               className="relative z-10"
             >
+              {/* Profile image */}
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full p-2 bg-linear-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/20 shadow-2xl">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-900 border-4 border-white/10 relative">
                   <div className="absolute inset-0 bg-indigo-500/10 mix-blend-overlay z-10" />
@@ -117,35 +119,12 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating Badge 1 */}
-              {/* <motion.div
-                animate={{ y: [0, 15, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                className="absolute top-10 -left-4 md:-left-10 bg-white dark:bg-slate-800 p-3 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-700 flex items-center gap-3"
-              >
-                <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-lg text-blue-600 dark:text-blue-400">
-                  <Code2 size={20} />
-                </div>
-                <div>
-                  <div className="text-xs text-slate-500">Experience</div>
-                  <div className="font-bold text-slate-900 dark:text-white">3+ Years</div>
-                </div>
-              </motion.div> */}
-
-              {/* Floating Badge 2 */}
-              {/* <motion.div
-                animate={{ y: [0, -15, 0] }}
-                transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                className="absolute bottom-10 -right-4 md:-right-4 bg-white dark:bg-slate-800 p-3 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-700 flex items-center gap-3"
-              >
-                <div className="bg-emerald-100 dark:bg-emerald-900/30 p-2 rounded-lg text-emerald-600 dark:text-emerald-400">
-                  <Download size={20} />
-                </div>
-                <div>
-                  <div className="text-xs text-slate-500">Projects</div>
-                  <div className="font-bold text-slate-900 dark:text-white">Completed</div>
-                </div>
-              </motion.div> */}
+              {/* Dynamic Floating Badge */}
+              <div className="hidden md:block">
+                <AnimatePresence mode="wait">
+                  <FloatingBadge />
+                </AnimatePresence>
+              </div>
             </motion.div>
           </motion.div>
         </div>
