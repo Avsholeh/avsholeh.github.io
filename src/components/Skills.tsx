@@ -31,7 +31,7 @@ export default function Skills() {
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ delay: index * 0.1 + skillIndex * 0.05 }}
-                    whileHover={{ scale: 1.05, backgroundColor: "rgba(99, 102, 241, 0.1)" }}
+                    whileHover={{ scale: 1.05 }}
                     className="px-3 py-1 text-xs font-medium rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 cursor-default transition-colors"
                   >
                     {skill}
