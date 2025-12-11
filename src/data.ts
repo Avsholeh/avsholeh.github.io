@@ -293,7 +293,7 @@ export const certificates: Certificate[] = [
   {
     id: "cert-1",
     name: "SQL Problem Solving",
-    issuer: "University of California, Davis (Coursera)",
+    issuer: "University of California, Davis - Coursera",
     description:
       "Menguasai pemecahan masalah kompleks menggunakan SQL, termasuk query lanjutan, join, subquery, window functions, dan optimasi performa database.",
     date: "Des 2025",
@@ -304,7 +304,7 @@ export const certificates: Certificate[] = [
   {
     id: "cert-2",
     name: "Programming with Google Go Specialization",
-    issuer: "University of California, Irvine (Coursera)",
+    issuer: "University of California, Irvine - Coursera",
     description:
       "Menguasai Go dari dasar hingga lanjutan: tipe data, functions, methods, interfaces, polymorphism, serta concurrent programming dengan goroutines dan channels.",
     date: "Des 2025",
@@ -316,6 +316,19 @@ export const certificates: Certificate[] = [
   },
   {
     id: "cert-3",
+    name: "Flutter & Dart - Complete App Development",
+    issuer: "Packt - Coursera",
+    description:
+      "Menguasai Flutter & Dart: setup environment, widget stateless/stateful, state management, navigation, JSON parsing, dynamic list, SQLite lokal, integrasi Firebase & REST API, serta state management lanjutan untuk app mobile efisien.",
+    date: "Des 2025",
+    links: [
+      "https://www.coursera.org/account/accomplishments/verify/830CNYPITRL8",
+      "https://www.coursera.org/account/accomplishments/verify/IXLGLUBFWBB1",
+      "https://www.coursera.org/account/accomplishments/verify/LRIXY7MKSB6N",
+    ],
+  },
+  {
+    id: "cert-4",
     name: "Big Data Training",
     issuer: "University of Brawijaya",
     description:
@@ -326,7 +339,7 @@ export const certificates: Certificate[] = [
     ],
   },
   {
-    id: "cert-4",
+    id: "cert-5",
     name: "Microsoft Office Training",
     issuer: "University of Brawijaya",
     description:

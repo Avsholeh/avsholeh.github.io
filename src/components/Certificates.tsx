@@ -6,12 +6,19 @@ export default function Certificates() {
   return (
     <section id="certificates" className="py-24 relative">
       <div className="container mx-auto px-6 md:px-12 lg:px-48">
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="mb-12">
-          <h2 className="text-3xl font-bold mb-4 dark:text-white text-slate-900">Sertifikasi</h2>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="mb-12"
+        >
+          <h2 className="text-3xl font-bold mb-4 dark:text-white text-slate-900">
+            Sertifikasi
+          </h2>
           <div className="h-1 w-20 bg-cyan-500 rounded-full" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {certificates.map((cert, index) => (
             <motion.div
               key={cert.id}
@@ -25,12 +32,18 @@ export default function Certificates() {
                 <Award size={24} />
               </div>
 
-              <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2 leading-tight">{cert.name}</h3>
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2 leading-tight">
+                {cert.name}
+              </h3>
 
-              <div className="text-sm text-slate-600 dark:text-slate-400 mb-2">{cert.issuer}</div>
+              <div className="text-sm text-slate-600 dark:text-slate-400 mb-2">
+                {cert.issuer}
+              </div>
 
               {cert.description && (
-                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 flex-1">{cert.description}</p>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 flex-1">
+                  {cert.description}
+                </p>
               )}
 
               <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800 mt-auto">
