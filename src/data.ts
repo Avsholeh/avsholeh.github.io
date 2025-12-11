@@ -1,4 +1,11 @@
-import type { Certificate, Education, Experience, Project, SkillCategory, SocialLink } from "./types";
+import type {
+  Certificate,
+  Education,
+  Experience,
+  Project,
+  SkillCategory,
+  SocialLink,
+} from "./types";
 
 export const personalInfo = {
   name: "Muhammad Sholeh",
@@ -128,7 +135,8 @@ export const projects: Project[] = [
   {
     id: "proj-1",
     title: "Sistem Informasi Pengawasan (SIMWAS)",
-    description: "Platform pengawasan kinerja tinggi untuk inspektorat daerah dengan fitur pelacakan audit real-time.",
+    description:
+      "Platform pengawasan kinerja tinggi untuk inspektorat daerah dengan fitur pelacakan audit real-time.",
     longDescription:
       "Sistem Informasi Pengawasan (SIMWAS) yang komprehensif dirancang untuk Inspektorat Daerah. Sistem ini menyederhanakan proses audit mulai dari perencanaan, pelaksanaan hingga pemantauan. Sistem ini digunakan oleh Inspektorat Daerah untuk meningkatkan efisiensi, transparansi, dan akuntabilitas pengawasan internal.",
     features: [
@@ -165,7 +173,8 @@ export const projects: Project[] = [
   {
     id: "proj-3",
     title: "Sistem Kearsipan Daerah (SIKANDA)",
-    description: "Sistem Informasi Kearsipan Daerah untuk pengelolaan dokumen pemerintah yang efisien dan terstruktur.",
+    description:
+      "Sistem Informasi Kearsipan Daerah untuk pengelolaan dokumen pemerintah yang efisien dan terstruktur.",
     longDescription:
       "SIKANDA adalah solusi manajemen arsip digital yang dikembangkan untuk BPKAD. Sistem ini menggantikan metode pengarsipan manual yang rentan kesalahan dengan platform digital yang aman, memungkinkan pencarian cepat, validasi dokumen, dan pelacakan riwayat akses arsip.",
     features: [
@@ -182,7 +191,8 @@ export const projects: Project[] = [
   {
     id: "proj-4",
     title: "Sistem Informasi Layanan Tahanan",
-    description: "Sistem terintegrasi untuk manajemen data tahanan, mulai dari pendaftaran, hingga proses persidangan.",
+    description:
+      "Sistem terintegrasi untuk manajemen data tahanan, mulai dari pendaftaran, hingga proses persidangan.",
     longDescription:
       "Sistem informasi untuk mengelola data tahanan, mulai dari pendaftaran hingga proses persidangan. Memfasilitasi pencatatan identitas tahanan, jadwal kunjungan untuk meningkatkan efisiensi layanan di lembaga pemasyarakatan. Semua proyek dirancang dengan antarmuka yang user-friendly, keamanan data yang kuat, dan kemampuan adaptasi terhadap kebutuhan pengguna.",
     features: [
@@ -209,7 +219,14 @@ export const projects: Project[] = [
       "Notifikasi otomatis untuk pengingat pengembalian",
       "Perhitungan denda keterlambatan otomatis",
     ],
-    tags: ["Laravel", "MySQL", "Livewire", "Alpine.js", "Laravel Excel", "FilePond"],
+    tags: [
+      "Laravel",
+      "MySQL",
+      "Livewire",
+      "Alpine.js",
+      "Laravel Excel",
+      "FilePond",
+    ],
     stats: "",
     image: "portfolio/elibraria/elibraria-screenshoot00.webp",
   },
@@ -226,7 +243,14 @@ export const projects: Project[] = [
       "Arsip digital yang mudah diakses",
       "Pencarian surat yang efisien",
     ],
-    tags: ["Laravel", "MySQL", "Livewire", "Alpine.js", "Laravel Excel", "FilePond"],
+    tags: [
+      "Laravel",
+      "MySQL",
+      "Livewire",
+      "Alpine.js",
+      "Laravel Excel",
+      "FilePond",
+    ],
     stats: "",
     image: "portfolio/esimelia/esimelia-screenshoot00.webp",
   },
@@ -258,8 +282,10 @@ export const education: Education[] = [
     degree: "S1 Teknik Informatika",
     period: "Jun 2013 – Sep 2018",
     location: "Malang, Jawa Timur",
-    research: "Implementasi Load Balancing menggunakan Algoritme Least Connection dengan Agen Psutils pada Web Server.",
-    researchLink: "https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/4237",
+    research:
+      "Implementasi Load Balancing menggunakan Algoritme Least Connection dengan Agen Psutils pada Web Server.",
+    researchLink:
+      "https://j-ptiik.ub.ac.id/index.php/j-ptiik/article/view/4237",
   },
 ];
 
@@ -271,7 +297,9 @@ export const certificates: Certificate[] = [
     description:
       "Menguasai pemecahan masalah kompleks menggunakan SQL, termasuk query lanjutan, join, subquery, window functions, dan optimasi performa database.",
     date: "Des 2025",
-    links: ["https://www.coursera.org/account/accomplishments/verify/582ADU20PIV1"],
+    links: [
+      "https://www.coursera.org/account/accomplishments/verify/582ADU20PIV1",
+    ],
   },
   {
     id: "cert-2",
@@ -280,7 +308,11 @@ export const certificates: Certificate[] = [
     description:
       "Menguasai Go dari dasar hingga lanjutan: tipe data, functions, methods, interfaces, polymorphism, serta concurrent programming dengan goroutines dan channels.",
     date: "Des 2025",
-    links: ["https://www.coursera.org/account/accomplishments/verify/M12AFFFYW9YE", "https://www.coursera.org/account/accomplishments/verify/N6SG9ZV53IL6"],
+    links: [
+      "https://www.coursera.org/account/accomplishments/verify/M12AFFFYW9YE",
+      "https://www.coursera.org/account/accomplishments/verify/N6SG9ZV53IL6",
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/RI1I6PEW2G5J",
+    ],
   },
   {
     id: "cert-3",
@@ -289,7 +321,9 @@ export const certificates: Certificate[] = [
     description:
       "Pelatihan intensif pengolahan dan analisis Big Data menggunakan tools modern seperti Hadoop, Spark, dan teknik distributed computing.",
     date: "Jun 2017",
-    links: ["https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO"],
+    links: [
+      "https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO",
+    ],
   },
   {
     id: "cert-4",
@@ -298,12 +332,18 @@ export const certificates: Certificate[] = [
     description:
       "Menguasai Microsoft Office (Word, Excel, PowerPoint, Outlook) untuk produktivitas kerja, pembuatan laporan, dan presentasi profesional.",
     date: "Jun 2016",
-    links: ["https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO"],
+    links: [
+      "https://drive.google.com/drive/folders/1JUkFkqcJI9LN0LzfHjSDo3E6yZbgqxQO",
+    ],
   },
 ];
 
 export const socialLinks: SocialLink[] = [
   { platform: "GitHub", url: "https://github.com/avsholeh", icon: "Github" },
-  { platform: "LinkedIn", url: "https://linkedin.com/in/muhammad-sholeh", icon: "Linkedin" },
+  {
+    platform: "LinkedIn",
+    url: "https://linkedin.com/in/muhammad-sholeh",
+    icon: "Linkedin",
+  },
   { platform: "Email", url: "mailto:avsholeh@gmail.com", icon: "Mail" },
 ];
