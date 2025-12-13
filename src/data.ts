@@ -134,7 +134,7 @@ export const experience: Experience[] = [
 export const projects: Project[] = [
   {
     id: "proj-1",
-    title: "Sistem Informasi Pengawasan (SIMWAS)",
+    title: "Sistem Informasi Pengawasan - SIMWAS",
     description:
       "Platform pengawasan kinerja tinggi untuk inspektorat daerah dengan fitur pelacakan audit real-time.",
     longDescription:
@@ -154,7 +154,7 @@ export const projects: Project[] = [
   },
   {
     id: "proj-2",
-    title: "Sistem Informasi Rumah Sakit (SIMRS)",
+    title: "Sistem Informasi Rumah Sakit - SIMRS",
     description:
       "Sistem Manajemen Rumah Sakit menyeluruh yang menjembatani standar data kesehatan BPJS dengan alur kerja internal.",
     longDescription:
@@ -172,7 +172,7 @@ export const projects: Project[] = [
   },
   {
     id: "proj-3",
-    title: "Sistem Kearsipan Daerah (SIKANDA)",
+    title: "Sistem Kearsipan Daerah - SIKANDA",
     description:
       "Sistem Informasi Kearsipan Daerah untuk pengelolaan dokumen pemerintah yang efisien dan terstruktur.",
     longDescription:
@@ -256,7 +256,7 @@ export const projects: Project[] = [
   },
   {
     id: "proj-7",
-    title: "Images to WebP Bulk Converter (WebPBox)",
+    title: "Images to WebP Bulk Converter - WebPBox.com",
     description:
       "Aplikasi web berbasis Nextjs untuk mengkonversi ribuan gambar sekaligus (JPG, PNG, GIF) ke format WebP secara massal dengan optimasi kualitas dan ukuran yang dapat diatur.",
     longDescription:
